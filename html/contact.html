@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/contact.css">
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
@@ -41,17 +42,17 @@
                             placeholder="성함을 입력해주세요.">
                         <span id="n_check" class="alret1"></span>
                         <span class="t">직함</span>
-                        <input type="text" id="c_name" name="c_name" maxlength="12" autocomplete="off"
+                        <input type="text" id="c_name" name="rank" maxlength="12" autocomplete="off"
                             placeholder="직함을 입력해주세요.">
                         <span id="cn_check" class="alret2"></span>
                     </div>
                     <div class="c_name inner">
                         <span class="t">업체명</span>
-                        <input type="text" id="co" name="name" maxlength="12" autocomplete="off"
+                        <input type="text" id="co" name="cname" maxlength="12" autocomplete="off"
                             placeholder="업체명을 입력해주세요.">
                         <span id="n_check" class="alret1"></span>
                         <span class="t">부서</span>
-                        <input type="text" id="c_name" name="c_name" maxlength="12" autocomplete="off"
+                        <input type="text" id="c_name" name="department" maxlength="12" autocomplete="off"
                             placeholder="부서명을 입력해주세요.">
                         <span id="cn_check" class="alret2"></span>
                     </div>
@@ -68,7 +69,7 @@
                     </div>
                     <div class="t_con inner">
                         <span class="t">내용</span>
-                        <textarea style="resize: none;" id="t_con" placeholder="자세한 문의 내용을 입력해주세요."></textarea>
+                        <textarea style="resize: none;" id="t_con" name="story" placeholder="자세한 문의 내용을 입력해주세요."></textarea>
                     </div>
                     <div class="file_up inner">
                         <span class="t">첨부파일</span>
