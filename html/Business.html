@@ -18,7 +18,7 @@
                 <li onclick="location.href='Business.html'">Business</li>
                 <li onclick="location.href='Onlinemall.html'">Online mall</li>
                 <li onclick="location.href='contact.html'">Contact us</li>
-                <select class="lang" onchange="window.location.replace(this.value);">
+                <select class="lang" onchange="if(this.value) location.href=(this.value)">
                     <option value="Business.html">KOR</option>
                     <option value="../hyunjun_en/html/Business.html">ENG</option>
                 </select>
