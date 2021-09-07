@@ -30,6 +30,6 @@ $(function () {
             From: inputs.elements["email"].value,
             Subject: "현준물산 컨택트 메일",
             Body: inputs.elements["name"].value + "<br>" + inputs.elements["rank"].value + "<br>" + inputs.elements["cname"].value + "<br>" + inputs.elements["department"].value + "<br>" + inputs.elements["p_num"].value + "<br>" + inputs.elements["title"].value + "<br>" + inputs.elements["story"].value
-        }).then(msg => alert("빠른 시일 내에 정확한 답변을 드리겠습니다. 감사합니다."))
+        }).then(msg => alert("Thank you for your inquiry. I'll answer as soon as possible."))
     });
 });
