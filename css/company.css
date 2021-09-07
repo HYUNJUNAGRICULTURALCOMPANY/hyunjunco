@@ -514,35 +514,35 @@ header{
     font-size: 3rem;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 25px;
+    margin-top: 20px;
 }
 .con3 .icon_c:nth-child(1) .shape::after{
     content: "CONFIDENCE";
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     margin-bottom: 30px;
 }
 .con3 .icon_c:nth-child(2) .shape::before{
     content: "인간존중";
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
-    margin-bottom: 25px;
+    margin-top: 20px;
 }
 .con3 .icon_c:nth-child(2) .shape::after{
     content: "HUMANITY";
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     margin-bottom: 30px;
 }
 .con3 .icon_c:nth-child(3) .shape::before{
     content: "창조와 혁신";
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
-    margin-bottom: 25px;
+    margin-top: 20px;
 }
 .con3 .icon_c:nth-child(3) .shape::after{
     content: "CREATION";

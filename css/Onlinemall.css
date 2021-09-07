@@ -540,8 +540,13 @@ header{
     font-size: 3.5rem;
     color: #A7081B;
     margin-bottom: 100px;
+    transition: 0.4s;
 }
-
+.store:hover{
+    background: #A7081B;
+    color: #fff;
+    border: 1px solid #A7081B;
+}
 /* section6 */
 .sec6{
     display: flex;

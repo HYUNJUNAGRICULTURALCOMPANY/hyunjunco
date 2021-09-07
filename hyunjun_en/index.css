@@ -284,9 +284,13 @@ header{
     height: 45px;
     color: #fff;
     font-size: 2rem;
-    cursor: pointer;
+    transition: 0.4s;
 }
-
+.t_btn:hover{
+    background: #A7081B;
+    color: #fff;
+    border: 1px solid #A7081B;
+}
 /*메인슬라이더 - 버튼 */
 .main_visual .btn_wrap{
     position: absolute;
@@ -560,46 +564,4 @@ header{
     
     .main_visual .main_slider .slide_box > div.box3 strong{
     text-shadow: 0 0 0 #000;
-}
-
-/* footer */
-footer{
-    width: 100%;
-    height: 184px;
-    display: flex;
-    align-items: center;
-    padding: 45px 186px;
-    background: #252525;
-    position: relative;
-}
-.l_con>span{
-    display: block;
-    font-size: 1.8rem;
-    color:#fff;
-}
-.num{
-    display: flex;
-    align-items: center;
-}
-.num>span{
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #fff;
-}
-.l_con .copy{
-    display: block;
-    font-size: 1.5rem;
-    color: #fff;
-}
-.g_top{
-    background: url(../img/icon/f_btn.png)no-repeat;
-    background-size: contain;
-    transform: rotate(180deg);
-    position: absolute;
-    right: 80px;
-    bottom: 95px;
-    width: 40px;
-    height: 40px;
-    z-index: 50;
-    cursor: pointer;
 }

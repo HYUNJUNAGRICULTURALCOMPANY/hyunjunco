@@ -523,18 +523,21 @@ header{
     font-size: 3rem;
     font-weight: 700;
     color: #fff;
+    margin-top: 8px;
 }
 .con3 .icon_c:nth-child(2) .shape::after{
     content: "HUMANITY";
     font-size: 3rem;
     font-weight: 700;
     color: #fff;
+    margin-top: 8px;
 }
 .con3 .icon_c:nth-child(3) .shape::after{
     content: "CREATION";
     font-size: 3rem;
     font-weight: 700;
     color: #fff;
+    margin-top: 8px;
 }
 /* fade2 con */
 .s_con2{

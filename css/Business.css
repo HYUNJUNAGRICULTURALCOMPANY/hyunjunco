@@ -181,6 +181,9 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: -24px;
+    margin-right: 23px;
 }
 .icon1:after{
     width: 200px;
@@ -200,6 +203,8 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
+    margin-top: -24px;
+    margin-right: 23px;
 }
 .icon2:after{
     width: 200px;
@@ -219,6 +224,8 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
+    margin-top: -24px;
+    margin-right: 23px;
 }
 .icon3:after{
     width: 200px;
