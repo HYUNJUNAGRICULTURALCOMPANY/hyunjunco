@@ -1,0 +1,159 @@
+@charset "UTF-08";
+body{
+    min-width: 320px;
+}
+header{
+    display: flex;
+    padding: 0 19px;
+    position: relative;
+    z-index: 100;
+    width:100%;
+    height: 68px;
+    align-items: center;
+}
+.menu{
+    width: 262px;
+    height: 100VH;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    align-items: flex-start;
+    transition: 0.4s;
+    opacity: 0;
+}
+.menu.on{
+    opacity: 1;
+    right: 0;
+}
+.lang {
+    width: 78px;
+    height: 26px;
+    border-radius: 20px;
+    border: 1.5px solid #CBCBCB;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 3%;
+    right: 65px;
+    background: transparent;
+}
+.g_icon {
+    top: 4%;
+    right: 117px;
+}
+.nav{
+    padding:90px 0 0 30px;
+    display: block;
+}
+.nav li{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+nav li:nth-child(4){
+    margin-bottom: 0;
+}
+.main_visual{
+    height: 100vh;
+    padding-left: 19px;
+}
+.logo{
+    display: block;
+    background: url(img/logo/logo_fake_KO.png)no-repeat;
+    background-size: contain;
+    width: 79px;
+    height: 18px;
+    margin:initial
+}
+.main_visual .btn_wrap {
+    position: absolute;
+    left: -19px;
+    bottom: 50px;
+}
+.main_visual .btn_wrap button {
+    width: 120px;
+    height: 120px;
+    border: none;
+}
+.main_visual .main_slider .slide_box .in_obj {
+    width: 85%;
+    text-align: left;
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    left: 0px;
+}
+.main_visual .main_slider .slide_box div div.wrap_t {
+    padding-left: 15px;
+}
+.main_visual .main_slider .slide_box > div .wrap_t > .w {
+    display: none;
+}
+.main_visual .main_slider .slide_box > div .wrap_t > em > .w_2 {
+    display: none;
+}
+.main_visual .main_slider .slide_box > div.on .wrap_t > em.M_t{
+    display: block;
+}
+.main_visual .main_slider .slide_box > div .wrap_t > em.M_t{
+    font-size: 1.4rem;
+    color: #fff;
+    height: 10px;
+    letter-spacing: -0.08rem;
+}
+.main_visual .main_slider .slide_box > div .wrap_t > em.M_t:nth-of-type(3){
+    font-weight: 700;
+}
+.main_visual .main_slider .slide_box div span {
+    font-size: 1.2rem;
+}
+.main_visual .btn_wrap button.next2 {
+    padding-left: 10px;
+}
+.t_btn {
+    width: 94px;
+    height: 30px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+.m_menu,.m_menu span{
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+.m_menu{
+    position: relative;
+    width: 20px;
+    height: 16px;
+    z-index: 101;
+}
+.m_menu span{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background: #A7081B;
+}
+.m_menu span:nth-child(1){
+    top:0;
+}
+.m_menu span:nth-child(2){
+    top:7px;
+}
+.m_menu span:nth-child(3){
+    bottom:0;
+}
+.m_menu.active span:nth-child(1){
+    transform: translateY(7px) rotate(-45deg);
+    background: #fff;
+}
+.m_menu.active span:nth-child(2){
+    opacity: 0;
+    background: #fff;
+}
+.m_menu.active span:nth-child(3){
+    transform: translateY(-7px) rotate(45deg);
+    background: #fff;
+}

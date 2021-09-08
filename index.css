@@ -270,6 +270,9 @@ header{
     display: block;
     font-weight: 300;
 }
+.main_visual .main_slider .slide_box > div.on .wrap_t > em.M_t{
+    display: none;
+}
 .main_visual .main_slider .slide_box > div.on .wrap_tit > em{
     top: 0;
     transition-delay: 0.3s
@@ -556,13 +559,8 @@ header{
     margin-top: 15px;
     letter-spacing: -0.7px;
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .main_visual .main_slider .slide_box > div strong{margin-bottom: 10px}
-}
-    .main_visual .main_slider .slide_box > div strong em{
-    font-style: normal; color: #22e8d5
-}
-    
-    .main_visual .main_slider .slide_box > div.box3 strong{
-    text-shadow: 0 0 0 #000;
+
+/* 모바일 안보이게 */
+.m_menu{
+    display: none;
 }

@@ -1,3 +1,13 @@
+//모바일 JS
+if ($(window).width() < 640) {
+    $(document).ready(function () {
+        $('.m_menu').click(function () {
+            $(this).toggleClass('active');
+            $('.menu').toggleClass('on')
+        });
+    });
+}
+
 $(function () {
     var $main_visual = $(".main_visual .main_slider");
     var $visualList = $(".main_visual .main_slider .slide_box > div");
@@ -134,7 +144,7 @@ var swiper = new Swiper(".sec_con", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
-  });
+});
 //-inner slide-//
 var swiper = new Swiper(".list", {
     direction: "vertical",
