@@ -263,22 +263,23 @@ nav li:nth-child(4){
 }
 .e_catch {
     display: block;
+    height: 120px;
     font-size: 3rem;
     letter-spacing: -0.05rem;
     text-align: center;
     position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 170px;
+    margin-bottom: initial;
 }
 .e_catch::before {
     width: 5px;
     height: 5px;
-    top: 119px;
+    top: 90px;
 }
 .e_catch::after {
     height: 61px;
-    top: 60px;
+    top: 30px;
 }
 .con3>span:nth-child(1) {
     font-size: 1.5rem;
