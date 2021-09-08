@@ -326,32 +326,32 @@ nav li:nth-child(4){
 }
 .con3 .icon_c:nth-child(1) .shape::before {
     content: "신뢰";
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-top: 2px;
 }
 .con3 .icon_c:nth-child(1) .shape::after {
     content: "CONFIDENCE";
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom: 3px;
 }
 .con3 .icon_c:nth-child(2) .shape::before {
     content: "인간존중";
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-top: 2px;
 }
 .con3 .icon_c:nth-child(2) .shape::after {
     content: "HUMANITY";
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom: 3px;
 }
 .con3 .icon_c:nth-child(3) .shape::before {
     content: "창조와 혁신";
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-top: 2px;
 }
 .con3 .icon_c:nth-child(3) .shape::after {
     content: "CREATION";
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom: 3px;
 }
 footer {
