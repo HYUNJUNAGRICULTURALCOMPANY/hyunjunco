@@ -99,7 +99,6 @@ header{
     flex-direction: column;
     align-items: center;
 }
-
 #sec1>h1 {
     margin-top: 281px;
     font-size: 5.5rem;
@@ -112,7 +111,9 @@ header{
     font-size: 2rem;
     font-weight: normal;
 }
-
+#sec1_M{
+    display: none;
+}
 /* 회사소개 섹션 2 */
 #sec2 {
     padding-top: 150px;
