@@ -140,7 +140,7 @@ nav li:nth-child(4){
     margin-bottom: 40px;
 }
 #sec2>p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 20px;
     text-align: center;
     font-weight: 600;
@@ -149,7 +149,7 @@ nav li:nth-child(4){
     word-break: keep-all;
 }
 #sec3{
-    margin-bottom: 40px;
+    margin-bottom: initial;
 }
 .tab_btn {
     width: 292px;
@@ -391,4 +391,54 @@ footer {
     bottom: 13px;
     width: 30px;
     height: 30px;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 120px;
+    background: #850615;
+}
+.box2 {
+    width: 70%;
+    height: 120px;
+    padding-left: 10px;
+}
+.box2 span {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+.box2 span:nth-child(2) {
+    margin-bottom: 10px;
+}
+.l_box {
+    width: 82%;
+    top: 120px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
+}
+.b_logo {
+    width:  57px;
+    height: 14px;
+}
+.b_bg>span::after {
+    height: 65px;
+    top: -102px;
+}
+.b_bg>span::before {
+    width: 5px;
+    height: 5px;
+    top: -39px;
+}
+.location {
+    margin-bottom: 96px;
+}
+.b_bg>span {
+    font-size: 1.1rem;
+}
+.b_bg {
+    background-position: 50%;
+    height: 455px;
+    padding-top: 138px;
 }
