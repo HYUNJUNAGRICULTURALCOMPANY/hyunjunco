@@ -1,0 +1,391 @@
+@charset "UTF-08";
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 68px;
+    padding: 0 19px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    z-index: 100;
+}
+.menu{
+    display: none;
+    width: 262px;
+    height: 100VH;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: -300px;
+    align-items: flex-start;
+    transition: 0.4s;
+}
+.menu.on{
+    display: block;
+    right: 0px;
+}
+.lang {
+    width: 78px;
+    height: 26px;
+    border-radius: 20px;
+    border: 1.5px solid #CBCBCB;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 3%;
+    right: 65px;
+    background: transparent;
+}
+.g_icon {
+    top: 4%;
+    right: 117px;
+}
+.nav{
+    padding:90px 0 0 30px;
+    display: block;
+}
+.nav li{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+nav li:nth-child(4){
+    margin-bottom: 0;
+}
+.logo{
+    display: block;
+    background: url(../img/logo/logo_fake_KO.png)no-repeat;
+    background-size: contain;
+    width: 119px;
+    height: 27px;
+}
+.m_menu,.m_menu span{
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+.m_menu{
+    position: relative;
+    width: 20px;
+    height: 16px;
+    z-index: 101;
+}
+.m_menu span{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background: #A7081B;
+}
+.m_menu span:nth-child(1){
+    top:0;
+}
+.m_menu span:nth-child(2){
+    top:7px;
+}
+.m_menu span:nth-child(3){
+    bottom:0;
+}
+.m_menu.active span:nth-child(1){
+    transform: translateY(7px) rotate(-45deg);
+    background: #fff;
+}
+.m_menu.active span:nth-child(2){
+    opacity: 0;
+    background: #fff;
+}
+.m_menu.active span:nth-child(3){
+    transform: translateY(-7px) rotate(45deg);
+    background: #fff;
+}
+#sec1{
+    display: none;
+}
+#sec1_M {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction:initial;
+    align-items: initial;
+}
+.bg_M{
+    width: 90%;
+    height: 100%;
+    background: url(../img/bg/company_M_bg.png) no-repeat;
+    background-size: cover;
+    padding-top: 47px;
+    position: absolute;
+    right: 0;
+}
+.M_title{
+    display: block;
+    background: url(../img/bg/M_title_bg.png) no-repeat;
+    background-size: cover;
+    width: 167px;
+    height: 43px;
+    padding: 12px 14px;
+    position: relative;
+    left: -24px;
+}
+.M_title>span{
+    font-size: 1.3rem;
+    color: #fff;
+}
+#sec2{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+#sec2>p {
+    font-size: 1.2rem;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    margin-bottom: 40px;
+    word-break: keep-all;
+}
+#sec3{
+    margin-bottom: 40px;
+}
+.tab_btn {
+    width: 292px;
+    height: 55px;
+}
+.tab_btn li span {
+    font-size: 1.5rem;
+}
+.tab_btn li:nth-child(2) span {
+    display: block;
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    color: #A7081B;
+    text-align: center;
+}
+.tab_btn::before {
+    width: 292px;
+}
+.tab_btn::after {
+    width: 292px;
+}
+.con1_t {
+    position: relative;
+    right: 0;
+    padding: 16px 0 0 15px;
+}
+.con1_t>span {
+    font-size: 2.5rem;
+}
+.con1_t>span:nth-child(2) {
+    font-size: 1rem;
+}
+.t_bond span:nth-child(1) {
+    font-size: 1rem;
+}
+.t_bond span {
+    font-size: 1rem;
+}
+.t_bond span:nth-child(2) {
+    font-size: 1rem;
+}
+.con {
+    margin-left: 10%;
+    margin-bottom: 58px;
+    position:relative;
+    left: 0;
+}
+.photo {
+    background: url(../img/회사소개/인사말물산사진.png)no-repeat;
+    background-size: cover;
+    width: 104px;
+    height: 97px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
+}
+.photo::after {
+    background-size: cover;
+    width: 118px;
+    height: 74px;
+    bottom: -20px;
+    left: -15%;
+}
+.con1_t::before {
+    background: #F8F8F8;
+    width: 199px;
+    height: 61px;
+    top: 36px;
+    left:0;
+    z-index: -2;
+}
+.con2 .photo {
+    background: url(../img/회사소개/인사말물산사진3.png)no-repeat;
+    background-size: cover;
+    width: 106px;
+    height: 97px;
+    position: relative;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
+}
+.con2 .con1_t {
+    position: relative;
+    padding: 15px 5px 0 10px;
+    margin-right: 0px;
+}
+.con2 .photo::after {
+    background-size: cover;
+    width: 121px;
+    height: 74px;
+    bottom: -14px;
+    left: 0px;
+    z-index: -1;
+}
+.con2 {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 200px;
+    position: relative;
+}
+.con2>.con1{
+    position: relative;
+    top: 40px;
+    padding-right: 10%;
+    float: right;
+}
+.con2 .con1_t::before {
+    background: #F8F8F8;
+    width: 210px;
+    height: 61px;
+    top: 36px;
+    left: 0px;
+    z-index: -2;
+}
+.con3 {
+    width: 100%;
+    height: 93px;
+    background: url(../img/회사소개/경영이념배경.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 15px;
+    margin-bottom: 589px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e_catch {
+    display: block;
+    height: 120px;
+    font-size: 3rem;
+    letter-spacing: -0.05rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: initial;
+}
+.e_catch::before {
+    width: 5px;
+    height: 5px;
+    top: 90px;
+}
+.e_catch::after {
+    height: 61px;
+    top: 30px;
+}
+.con3>span:nth-child(1) {
+    font-size: 1.5rem;
+    margin-bottom: 9px;
+}
+.con3>span:nth-child(2) {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+.con3>span:nth-child(3) {
+    font-size: 1.2rem;
+    margin-bottom: 34px
+}
+.icon.aos-init.aos-animate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon_c {
+    width: 211px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon_c span {
+    width: 200px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.shape {
+    background: url(../img/회사소개/경영이념정육면체.png)no-repeat;
+    background-size: cover;
+    width: 82px;
+    height: 95px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.con3 .icon_c:nth-child(1) .shape::before {
+    display: none;
+}
+.con3 .icon_c:nth-child(1) .shape::after {
+    content: "CONFIDENCE";
+    font-size: 0.5rem;
+    margin-bottom: 3px;
+}
+.con3 .icon_c:nth-child(2) .shape::before {
+    display: none;
+}
+.con3 .icon_c:nth-child(2) .shape::after {
+    content: "HUMANITY";
+    font-size: 0.5rem;
+    margin-bottom: 3px;
+}
+.con3 .icon_c:nth-child(3) .shape::before {
+    display: none;
+}
+.con3 .icon_c:nth-child(3) .shape::after {
+    content: "CREATION";
+    font-size: 0.5rem;
+    margin-bottom: 3px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: initial;
+    background: #252525;
+    position: relative;
+    padding: 0 12px
+}
+.l_con>span {
+    font-size: 1.3rem;
+    word-break: keep-all;
+}
+.num>span {
+    font-size: 1.3rem;
+    word-break: keep-all;
+}
+.l_con .copy {
+    font-size: 1.2rem;
+    word-break: keep-all;
+}
+.g_top {
+    right: 12px;
+    bottom: 13px;
+    width: 30px;
+    height: 30px;
+}
