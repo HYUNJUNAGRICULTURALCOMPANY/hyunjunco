@@ -342,7 +342,7 @@ nav li:nth-child(4){
 }
 .con3 .icon_c:nth-child(1) .shape::after {
     content: "CONFIDENCE";
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom: 3px;
 }
 .con3 .icon_c:nth-child(2) .shape::before {
