@@ -1,6 +1,7 @@
 @charset "UTF-08";
 body{
     min-width: 320px;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -12,19 +13,19 @@ header{
     align-items: center;
 }
 .menu{
+    display: none;
     width: 262px;
     height: 100VH;
     background: #000;
     position: absolute;
     top: 0;
-    right: -100%;
+    right: -300px;
     align-items: flex-start;
     transition: 0.4s;
-    opacity: 0;
 }
 .menu.on{
-    opacity: 1;
-    right: 0;
+    display: block;
+    right: 0px;
 }
 .lang {
     width: 78px;

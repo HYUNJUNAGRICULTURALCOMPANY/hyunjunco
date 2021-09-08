@@ -223,7 +223,7 @@ header{
 .main_visual .main_slider .slide_box .in_obj .wrap_t{
     margin-bottom: 25px;
 }
-.main_visual .main_slider .slide_box div div.wrap_tit{
+.main_visual .main_slider .slide_box div div.wrap_t{
     display: block; position: relative;
     opacity:0;
     -moz-transition: all 1s;
@@ -233,7 +233,7 @@ header{
     transition: all 1s;
     transition-delay: 0.6s;
 }
-.main_visual .main_slider .slide_box div div.wrap_tit:before{
+.main_visual .main_slider .slide_box div div.wrap_t:before{
     content: ''; 
     display: block; 
     width: 805px; 
@@ -270,7 +270,7 @@ header{
     display: block;
     font-weight: 300;
 }
-.main_visual .main_slider .slide_box > div.on .wrap_t > em.M_t{
+.main_visual .main_slider .slide_box > div .wrap_t  em.M_t{
     display: none;
 }
 .main_visual .main_slider .slide_box > div.on .wrap_tit > em{
