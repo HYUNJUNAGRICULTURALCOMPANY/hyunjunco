@@ -328,6 +328,7 @@ nav li:nth-child(4){
     content: "신뢰";
     font-size: 1.3rem;
     margin-top: 2px;
+    font-weight: bold;
 }
 .con3 .icon_c:nth-child(1) .shape::after {
     content: "CONFIDENCE";
@@ -338,6 +339,7 @@ nav li:nth-child(4){
     content: "인간존중";
     font-size: 1.3rem;
     margin-top: 2px;
+    font-weight: bold;
 }
 .con3 .icon_c:nth-child(2) .shape::after {
     content: "HUMANITY";
@@ -348,11 +350,13 @@ nav li:nth-child(4){
     content: "창조와 혁신";
     font-size: 1.3rem;
     margin-top: 2px;
+    font-weight: bold;
 }
 .con3 .icon_c:nth-child(3) .shape::after {
     content: "CREATION";
     font-size: 1rem;
     margin-bottom: 3px;
+    font-weight: normal;
 }
 footer {
     width: 100%;

@@ -344,6 +344,7 @@ nav li:nth-child(4){
     content: "CONFIDENCE";
     font-size: 1rem;
     margin-bottom: 3px;
+    font-weight: bold;
 }
 .con3 .icon_c:nth-child(2) .shape::before {
     display: none;
@@ -352,6 +353,7 @@ nav li:nth-child(4){
     content: "HUMANITY";
     font-size: 0.5rem;
     margin-bottom: 3px;
+    font-weight: bold;
 }
 .con3 .icon_c:nth-child(3) .shape::before {
     display: none;
@@ -360,6 +362,7 @@ nav li:nth-child(4){
     content: "CREATION";
     font-size: 0.5rem;
     margin-bottom: 3px;
+    font-weight: bold;
 }
 footer {
     width: 100%;
