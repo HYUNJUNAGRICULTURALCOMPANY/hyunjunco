@@ -270,6 +270,9 @@ header{
     display: block;
     font-weight: 300;
 }
+.main_visual .main_slider .slide_box > div.on .wrap_t > em.M_t{
+    display: none;
+}
 .main_visual .main_slider .slide_box > div.on .wrap_tit > em{
     top: 0;
     transition-delay: 0.3s
