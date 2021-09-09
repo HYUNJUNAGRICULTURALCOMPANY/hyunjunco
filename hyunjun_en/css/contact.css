@@ -412,3 +412,6 @@ footer{
     z-index: 50;
     cursor: pointer;
 }
+.M_title{
+    display: none;
+}

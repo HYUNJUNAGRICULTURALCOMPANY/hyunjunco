@@ -166,6 +166,7 @@ header{
     position: absolute;
     top: -137px;
     right: 162px;
+    z-index: 1;
 }
 .b_code1 span{
     display: block;
@@ -556,6 +557,7 @@ header{
     width: 100%;
     height: 445px;
     background: url(../img/bg/sec4bg.png)no-repeat;
+    background-size: cover;
 }
 .sec6>span{
     font-size: 4rem;
@@ -666,4 +668,7 @@ footer{
     height: 40px;
     z-index: 50;
     cursor: pointer;
+}
+.M_title{
+    display: none;
 }
