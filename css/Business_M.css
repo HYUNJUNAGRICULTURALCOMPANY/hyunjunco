@@ -1,0 +1,355 @@
+@charset "UTF-08";
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 68px;
+    padding: 0 19px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    z-index: 100;
+}
+.menu{
+    display: none;
+    width: 262px;
+    height: 100VH;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: -300px;
+    align-items: flex-start;
+    transition: 0.4s;
+}
+.menu.on{
+    display: block;
+    right: 0px;
+}
+.lang {
+    width: 78px;
+    height: 26px;
+    border-radius: 20px;
+    border: 1.5px solid #CBCBCB;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 3%;
+    right: 65px;
+    background: transparent;
+}
+.g_icon {
+    top: 4%;
+    right: 117px;
+}
+.nav{
+    padding:90px 0 0 30px;
+    display: block;
+}
+.nav li{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+nav li:nth-child(4){
+    margin-bottom: 0;
+}
+.logo{
+    display: block;
+    background: url(../img/logo/logo_fake_KO.png)no-repeat;
+    background-size: contain;
+    width: 119px;
+    height: 27px;
+}
+.m_menu,.m_menu span{
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+.m_menu{
+    position: relative;
+    width: 20px;
+    height: 16px;
+    z-index: 101;
+}
+.m_menu span{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background: #A7081B;
+}
+.m_menu span:nth-child(1){
+    top:0;
+}
+.m_menu span:nth-child(2){
+    top:7px;
+}
+.m_menu span:nth-child(3){
+    bottom:0;
+}
+.m_menu.active span:nth-child(1){
+    transform: translateY(7px) rotate(-45deg);
+    background: #fff;
+}
+.m_menu.active span:nth-child(2){
+    opacity: 0;
+    background: #fff;
+}
+.m_menu.active span:nth-child(3){
+    transform: translateY(-7px) rotate(45deg);
+    background: #fff;
+}
+#sec1{
+    display: none;
+}
+#sec1_M {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction:initial;
+    align-items: initial;
+}
+.bg_M{
+    width: 90%;
+    height: 100%;
+    background: url(../img/bg/Business_M_bg.png) no-repeat;
+    background-size: cover;
+    padding-top: 47px;
+    position: absolute;
+    right: 0;
+}
+.M_title{
+    display: block;
+    background: url(../img/bg/M_title_bg.png) no-repeat;
+    background-size: cover;
+    width: 167px;
+    height: 43px;
+    padding: 12px 14px;
+    position: relative;
+    left: -24px;
+}
+.M_title>span{
+    font-size: 1.3rem;
+    color: #fff; 
+}
+.sec1{
+    display: none;
+}
+#sec1_M{
+    margin-bottom: 30px;
+}
+.photo{
+    width: 268px;
+    height: 114px;
+    background: url(../img/bg/redhouse.png)no-repeat;
+    background-size: cover;
+}
+.sec2{
+    padding-left: 26px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+.s2_con1>h1 {
+    width: 294px;
+    height: 30px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #A7081B;
+    margin-bottom: 10px;
+}
+.s2_con1>span:nth-child(2) {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.s2_con2 p {
+    margin: 0px 0 50px 0;
+    border-top: none;
+    padding-top: initial;
+    width: 268px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+.s2_con1>span:nth-child(2)::before {
+    display: block;
+    width: 4px;
+    height: 4px;
+    left: 85px;
+    top: 3px;
+}
+.icon {
+    width: 270px;
+    padding-left: 0;
+}
+.icon1 {
+    width: 24px;
+    height: 33px;
+    margin-top: -24px;
+    margin-right: 23px;
+}
+.icon1:after {
+    width: 62px;
+    content: "주택 및 상가 임대업";
+    font-size: 1.2rem;
+    top: 36px;
+    line-height: 1.2rem;
+}
+.icon2 {
+    width: 34px;
+    height: 31px;
+}
+.icon2:after {
+    width: 62px;
+    font-size: 1.2rem;
+    top: 36px;
+}
+.icon3 {
+    width: 36px;
+    height: 26px;
+}
+.icon3:after {
+    width: 62px;
+    font-size: 1.2rem;
+    top: 33px;
+}
+.photo2{
+    width: 268px;
+    height: 114px;
+    background: url(../img/bg/people.png)no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.sec3{
+    padding-left: 26px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 84px;
+}
+.sec3 .s2_con1>h1 {
+    width: 294px;
+    height: 30px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #A7081B;
+    margin-bottom: 10px;
+}
+.sec3 .s2_con1>span:nth-child(2) {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.sec3 .s2_con2 p:nth-child(1) {
+    margin: 0px 0 50px 0;
+    border-top: none;
+    padding-top: initial;
+    width: 268px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+.sec3 .s2_con1>span:nth-child(2)::before {
+    display: block;
+    width: 4px;
+    height: 4px;
+    left: 85px;
+    top: 3px;
+}
+.sec3 .icon1 {
+    width: 37px;
+    height: 37px;
+}
+.sec3 .icon1:after {
+    width: 62px;
+    font-size: 1.2rem;
+    top: 45px;
+}
+.sec3 .icon2 {
+    width: 29px;
+    height: 35px;
+}
+.sec3 .icon2:after {
+    width: 62px;
+    content: "가공식품";
+    font-size: 1.2rem;
+    top: 40px;
+}
+.sec3 .icon3 {
+    width: 33px;
+    height: 33px;
+}
+.sec3 .icon3:after {
+    width: 62px;
+    font-size: 1.2rem;
+    top: 38px;
+}
+.squre {
+    width: 80px;
+    height: 80px;
+}
+.sec4{
+    height: 145px;
+    background: url(../img/bg/sec4bg.png)no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: initial;
+    background: #252525;
+    position: relative;
+    padding: 0 12px
+}
+.l_con>span {
+    font-size: 1.3rem;
+    word-break: keep-all;
+}
+.sec4>span {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.s_contact>span {
+    font-size: 1.5rem;
+    margin-right: 42px;
+}
+.c_btn .round {
+    width: 15px;
+    height: 15px;
+}
+.c_btn .round {
+    width: 15px;
+    height: 15px;
+}
+.c_btn span:nth-of-type(1) {
+    width: 5px;
+    height: 1px;
+    top: 6px;
+    left: 5px;
+}
+.c_btn span:nth-of-type(2) {
+    width: 5px;
+    height: 1px;
+    top: 9px;
+    left: 5px;
+}
+.c_btn .c_line {
+    width: 35px;
+    height: 1px;
+    top: 7px;
+    left: -27px;
+}
+.num>span {
+    font-size: 1.3rem;
+    word-break: keep-all;
+}
+.l_con .copy {
+    font-size: 1.2rem;
+    word-break: keep-all;
+}
+.g_top {
+    right: 12px;
+    bottom: 13px;
+    width: 30px;
+    height: 30px;
+}
