@@ -35,12 +35,12 @@ header{
     padding-left: 25px;
     font-size: 1.3rem;
     position: absolute;
-    top: 3%;
+    top: 25px;
     right: 65px;
     background: transparent;
 }
 .g_icon {
-    top: 4%;
+    top: 30px;
     right: 117px;
 }
 .nav{

@@ -35,12 +35,12 @@ header{
     padding-left: 25px;
     font-size: 1.3rem;
     position: absolute;
-    top: 3%;
+    top: 25px;
     right: 65px;
     background: transparent;
 }
 .g_icon {
-    top: 4%;
+    top: 30px;
     right: 117px;
 }
 .nav{
@@ -148,10 +148,11 @@ nav li:nth-child(4){
     background-size: cover;
 }
 .sec2{
-    padding-left: 26px;
+    padding-left: 21px;
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
+    width: 310px;
 }
 .s2_con1>h1 {
     width: 294px;
@@ -161,6 +162,7 @@ nav li:nth-child(4){
     margin-bottom: 10px;
 }
 .s2_con1>span:nth-child(2) {
+    width: 294px;
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
@@ -222,10 +224,11 @@ nav li:nth-child(4){
     background-position: 50%;
 }
 .sec3{
-    padding-left: 26px;
+    padding-left: 21px;
     display: flex;
     flex-direction: column;
     margin-bottom: 84px;
+    width: 310px;
 }
 .sec3 .s2_con1>h1 {
     width: 294px;
