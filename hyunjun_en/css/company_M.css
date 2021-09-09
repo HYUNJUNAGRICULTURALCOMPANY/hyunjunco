@@ -57,7 +57,7 @@ nav li:nth-child(4){
 }
 .logo{
     display: block;
-    background: url(../img/logo/logo_fake_KO.png)no-repeat;
+    background: url(../img/logo/logo_fake_EN.png)no-repeat;
     background-size: contain;
     width: 119px;
     height: 27px;
