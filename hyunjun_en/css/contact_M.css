@@ -114,7 +114,7 @@ nav li:nth-child(4){
 .bg_M{
     width: 90%;
     height: 100%;
-    background: url(../img/bg/company_M_bg.png) no-repeat;
+    background: url(../img/bg/contactus_M_bg.png) no-repeat;
     background-size: cover;
     padding-top: 47px;
     position: absolute;
@@ -134,6 +134,190 @@ nav li:nth-child(4){
     font-size: 1.3rem;
     color: #fff;
 }
+
+/* 모바일 리퀘스트 폼 */
+#sec2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 42px;
+}
+#sec2>h1:nth-of-type(1) {
+    display: none;
+}
+#sec2>h1:nth-of-type(2) {
+    font-size: 1.5rem;
+    letter-spacing: -0.05em;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: inherit;
+    width: 80%;
+    display: block;
+}
+.request_f {
+    display: none;
+}
+.request_f_M {
+    display: block;
+    padding-left: 63px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contents div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.inner {
+    width: 256px;
+    display: flex;
+}
+.t {
+    display: inline-block;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+}
+.name_c .t:nth-child(1) {
+    margin-right: 20px;
+}
+.c_name .t:nth-child(1), .contacts .t{
+    margin-right: 4px;
+}
+.contact_b>.t {
+    margin-right: 4px;
+}
+.name_c #name, .c_name #co, .contacts #email {
+    margin-right: initial;
+}
+.t_con.inner>.t {
+    display: inline-block;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: inherit;
+    margin-right: 15px;
+    position: relative;
+}
+.t::before {
+    content: "";
+    background: #A7081B;
+    width: 3.12px;
+    height: 3.12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: -15px;
+}
+input[type="text"] {
+    width: 204px;
+    height: 23px;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    border: 1px solid #252525;
+    border-left: 3px solid #A7081B;
+}
+#t_tle {
+    width: 204px;
+}
+textarea {
+    padding: 10px 10px;
+    font-size: 0.9rem;
+    width: 204px;
+    height: 175px;
+    border: 1px solid #252525;
+    border-left: 3px solid #A7081B;
+}
+.file_up.inner {
+    display: none;
+}
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin: 2px auto;
+    border-radius: 50%;
+}
+.submits label span {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: initial;
+}
+.contents div.submits.inner {
+    padding-right: 25px;
+}
+.t_con.inner{
+    margin-bottom: 40px;
+}
+.s_submit {
+    width: 59px;
+    height: 16px;
+    font-size: 1rem;
+    background: #c4c4c4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    line-height: 16px;
+    margin-top: initial;
+}
+.c_btn {
+    display: block;
+    font-size: 1.3rem;
+    color: #A7081B;
+    background: transparent;
+    border: 1px solid #A7081B;
+    width: 90px;
+    height: 30px;
+    margin: 0 57px;
+    cursor: pointer;
+    margin-bottom: 65px;
+    transition: 0.4s;
+}
+#sec3{
+    height: 145px;
+    background: url(../img/bg/sec4bg.png)no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.x {
+    width: 15px;
+    height: 15px;
+    right: 30px;
+    top: 30px;
+}
+.terms {
+    padding: 25px;
+}
+.terms h1 {
+    font-size: 1.8rem;
+}
+.tex1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.tex2 {
+    width: 90%;
+    font-size: 1rem;
+    word-break: keep-all;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.tex3 {
+    width: 90%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.tex3>li {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: initial;
+}
 footer {
     width: 100%;
     height: 200px;
@@ -147,40 +331,6 @@ footer {
 .l_con>span {
     font-size: 1.3rem;
     word-break: keep-all;
-}
-.sec4>span {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-.s_contact>span {
-    font-size: 1.5rem;
-    margin-right: 42px;
-}
-.c_btn .round {
-    width: 15px;
-    height: 15px;
-}
-.c_btn .round {
-    width: 15px;
-    height: 15px;
-}
-.c_btn span:nth-of-type(1) {
-    width: 5px;
-    height: 1px;
-    top: 6px;
-    left: 5px;
-}
-.c_btn span:nth-of-type(2) {
-    width: 5px;
-    height: 1px;
-    top: 9px;
-    left: 5px;
-}
-.c_btn .c_line {
-    width: 35px;
-    height: 1px;
-    top: 7px;
-    left: -27px;
 }
 .num>span {
     font-size: 1.3rem;

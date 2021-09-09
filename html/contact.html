@@ -44,8 +44,9 @@
             </div>
         </div>
     </section>
-    <!-- <section id="sec2">
+    <section id="sec2">
         <h1>아래 양식을 기입하여 보내주시면, 빠른 시일내에 정확한 답변을 드리겠습니다.</h1>
+        <h1 class="h1_M">아래 양식을 기입하여 보내주시면,<br> 빠른 시일내에 정확한 답변을 드리겠습니다.</h1>
         <div class="request_f">
             <div class="wrap">
                 <form class="contents" onsubmit="return false">
@@ -53,11 +54,9 @@
                         <span class="t">성함</span>
                         <input type="text" id="name" name="name" maxlength="12" autocomplete="off"
                             placeholder="성함을 입력해주세요.">
-                        <span id="n_check" class="alret1"></span>
                         <span class="t">직함</span>
                         <input type="text" id="c_name" name="rank" maxlength="12" autocomplete="off"
                             placeholder="직함을 입력해주세요.">
-                        <span id="cn_check" class="alret2"></span>
                     </div>
                     <div class="c_name inner">
                         <span class="t">업체명</span>
@@ -100,6 +99,64 @@
                 <button class="c_btn">문의하기</button>
             </div>
         </div>
+        <div class="request_f_M">
+            <div class="wrap">
+                <form class="contents" onsubmit="return false">
+                    <div class="name_c inner">
+                        <span class="t">성함</span>
+                        <input type="text" id="name" name="name" maxlength="12" autocomplete="off"
+                            placeholder="성함을 입력해주세요.">
+                    </div>
+                    <div class="rank inner">
+                        <span class="t">직함</span>
+                        <input type="text" id="c_name" name="rank" maxlength="12" autocomplete="off"
+                            placeholder="직함을 입력해주세요.">
+                    </div>
+                    <div class="c_name inner">
+                        <span class="t">업체명</span>
+                        <input type="text" id="co" name="cname" maxlength="12" autocomplete="off"
+                            placeholder="업체명을 입력해주세요.">
+                        <span id="n_check" class="alret1"></span>
+                    </div>
+                    <div>
+                        <span class="t">부서</span>
+                        <input type="text" id="c_name" name="department" maxlength="12" autocomplete="off"
+                            placeholder="부서명을 입력해주세요.">
+                        <span id="cn_check" class="alret2"></span>
+                    </div>
+                    <div class="contacts inner">
+                        <span class="t">이메일</span>
+                        <input type="text" id="email" name="email" autocomplete="off" placeholder="이메일">
+                        <span id="e_check" class="alret3"></span>
+                    </div>
+                    <div class="contact_b inner">
+                        <span class="t">연락처</span>
+                        <input type="text" id="p_num" name="p_num" autocomplete="off" placeholder="연락처">
+                    </div>
+                    <div class="title inner">
+                        <span class="t">제목</span>
+                        <input type="text" id="t_tle" name="title" placeholder="제목을 입력해주세요.">
+                    </div>
+                    <div class="t_con inner">
+                        <span class="t">내용</span>
+                        <textarea style="resize: none;" id="t_con" name="story" placeholder="자세한 문의 내용을 입력해주세요."></textarea>
+                    </div>
+                    <div class="file_up inner">
+                        <span class="t">첨부파일</span>
+                        <label class="input-file-button" for="input-file">파일 업로드</label>
+                        <input type="file" id="input-file" size="20">
+                    </div>
+                    <div class="submits inner">
+                        <button class="s_submit">약관보기</button>
+                        <label>
+                            <input type="radio" id="c_box" style="width: 16px; height: 16px;">
+                            <span class="personal">개인정보처리방침에 동의합니다.</span>
+                        </label>
+                    </div>
+                </form>
+                <button class="c_btn">문의하기</button>
+            </div>
+        </div>    
         <div class="terms">
             <div class="x">
             </div>
@@ -122,6 +179,20 @@
                 <li>보존이유: 고객님의 동의를 통한 인재정보 유지</li>
                 <li>보존기간: 고객 정보 삭제 요청시까지</li>
             </ul>
+        </div>
+    </section>
+    <!-- <section class="sec3" id="sec3">
+        <span>솔루션 문의부터 비즈니스 제휴까지
+            <br>무엇이든 물어보세요.
+        </span>
+        <div onclick="location.href='contact.html'" class="s_contact">
+            <span>문의하기</span>
+            <div class="c_btn">
+                <div class="round"></div>
+                <span></span>
+                <span></span>
+                <span class="c_line"></span>
+            </div>
         </div>
     </section> -->
     <footer>

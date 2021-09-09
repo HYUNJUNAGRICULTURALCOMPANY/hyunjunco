@@ -133,8 +133,14 @@ header{
     text-align: center;
     margin-bottom: 150px;
 }
+#sec2>h1:nth-of-type(2) {
+    display: none;
+}
 
 /* contact */
+.request_f_M {
+    display: none;
+}
 input[type="text"]{
     width: 523px;
     height: 60px;
